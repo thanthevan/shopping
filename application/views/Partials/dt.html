@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+   <html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
+      <!--<![endif]-->
+      <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+         <title>Bệnh viện VQ &lsaquo; Đăng nhập</title>
+         <style type="text/css">
+            html, body {
+            }
+            body.login div#login h1 a {
+            background-image: url(http://pshn.gdata.com.vn/wp-content/uploads/2016/11/bvps_01.png) !important;
+            width: 124px !important;
+            background-size: 124px  !important;
+            }
+            #loginform {
+            }
+            #login {
+            }
+            .login form .input, .login input[type="text"] {
+            }
+            .login label {
+            }
+            .wp-core-ui .button-primary {
+            }
+            .wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+            }
+            .login #backtoblog a, .login #nav a {
+            }
+            .login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+            }
+         </style>
+         <script type='text/javascript' src='http://benhvienphusanhanoi.vn/wp-admin/load-scripts.php?c=1&amp;load%5B%5D=jquery-core,jquery-migrate&amp;ver=4.6.6'></script>
+         <link rel='stylesheet' href='http://benhvienphusanhanoi.vn/wp-admin/load-styles.php?c=1&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.6.6' type='text/css' media='all' />
+         <link rel='stylesheet' id='bsdatepickercss-css'  href='http://benhvienphusanhanoi.vn/wp-content/themes/healthflex/assets/js/libs/bootstrap-datepicker.min.css?ver=all' type='text/css' media='all' />
+         <meta name='robots' content='noindex,follow' />
+      </head>
+      <body class="login login-action-login wp-core-ui  locale-vi">
+         <div id="login">
+            <h1><a href="http://wordpress.org/" title="Xây dựng bằng WordPress" tabindex="-1">Bệnh viện Phụ sản Hà nội</a></h1>
+            <form name="loginform" id="loginform" action="http://benhvienphusanhanoi.vn/wp-login.php" method="post">
+               <p>
+                  <label for="user_login">Tên đăng nhập hoặc email:<br />
+                  <input type="text" name="log" id="user_login" class="input" value="" size="20" /></label>
+               </p>
+               <p>
+                  <label for="user_pass">Mật khẩu<br />
+                  <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
+               </p>
+               <p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Tự động đăng nhập</label></p>
+               <p class="submit">
+                  <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Đăng nhập" />
+                  <input type="hidden" name="redirect_to" value="http://benhvienphusanhanoi.vn/wp-admin/" />
+                  <input type="hidden" name="testcookie" value="1" />
+               </p>
+            </form>
+            <p id="nav">
+               <a href="http://benhvienphusanhanoi.vn/wp-login.php?action=lostpassword">Bạn quên mật khẩu?</a>
+            </p>
+            <script type="text/javascript">
+               function wp_attempt_focus(){
+               setTimeout( function(){ try{
+               d = document.getElementById('user_login');
+               d.focus();
+               d.select();
+               } catch(e){}
+               }, 200);
+               }
+               
+               wp_attempt_focus();
+               if(typeof wpOnload=='function')wpOnload();
+            </script>
+            <p id="backtoblog"><a href="http://benhvienphusanhanoi.vn/">&larr; Quay lại Bệnh viện Phụ sản Hà nội</a></p>
+         </div>
+         <script type='text/javascript'>
+            /* <![CDATA[ */
+            var ajax_obj = {"ajax_url":"http:\/\/benhvienphusanhanoi.vn\/wp-admin\/admin-ajax.php","smart_nonce":"913150b75c"};
+            /* ]]> */
+         </script>
+         <script type='text/javascript' src='http://benhvienphusanhanoi.vn/wp-content/themes/healthflex/assets/js/libs/bootstrap-datepicker.min.js?ver=4.6.6'></script>
+         <script type='text/javascript' src='http://benhvienphusanhanoi.vn/wp-content/themes/healthflex/bangkiemajax.js?ver=4.6.6'></script>
+         <div class="clear"></div>
+      </body>
+   </html>
+
